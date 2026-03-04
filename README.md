@@ -2,7 +2,7 @@
 
 This is a fully functional Command Line Interface (CLI) tool built using Node.js, TypeScript, and Object-Oriented Programming (OOP) concepts. It was built for the SESD Workshop 2!
 
-## 🚀 Features
+##  Features
 - **Object-Oriented Structure**: Every command extends an abstract `BaseCommand` class.
 - **API Integrations**: Includes commands to fetch GitHub user info, random quotes, and programming jokes.
 - **Utility Commands**: Includes an interactive guessing game, dice roller, calculator, and more.
@@ -48,7 +48,7 @@ This is a fully functional Command Line Interface (CLI) tool built using Node.js
 
 ---
 
-## 🔥 Example Usage
+## Example Usage
 
 ```bash
 # Get GitHub details for 'octocat'
