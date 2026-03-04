@@ -2,7 +2,7 @@
 
 Hey there! 👋 Welcome to my custom Command Line Interface (CLI) project. I built this tool using **Node.js** and **TypeScript** to demonstrate core Object-Oriented Programming (OOP) concepts in a real-world application.
 
-## 🚀 What's Inside?
+##  What's Inside?
 
 This isn't just a simple script—it's a fully structured, modular CLI engine. I've packed it with **10 custom commands**, ranging from local system utilities to live API integrations. 
 
@@ -15,7 +15,7 @@ Here are some of the cool features:
 ### The Custom CLI Banner 🎨
 Whenever you run the tool without any specific commands (just `npm start`), you'll be greeted by a custom, block-filled **"FAHHH"** ASCII art banner! I used `figlet` (specifically the Star Wars font) and `chalk` to give it a bold, solid white look before displaying the help menu.
 
-## 🛠️ How to Use It
+##  How to Use It
 
 It's super easy to get started. Just clone the repo, install the dependencies, and use the `npm start` command!
 
