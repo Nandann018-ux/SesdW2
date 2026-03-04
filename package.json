@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,16 +11,22 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.13.6",
     "chalk": "^4.1.2",
-    "commander": "^14.0.3"
+    "chalk-animation": "^2.0.3",
+    "commander": "^14.0.3",
+    "figlet": "^1.10.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^25.3.1",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^25.3.3",
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "bin": {
-    "mycli": "./dist/index.js"
+    "myFahh": "./dist/index.js"
   }
 }
