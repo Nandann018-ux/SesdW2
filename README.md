@@ -1,6 +1,6 @@
 # My Custom OOP CLI Tool
 
-Hey there! 👋 Welcome to my custom Command Line Interface (CLI) project. I built this tool using **Node.js** and **TypeScript** to demonstrate core Object-Oriented Programming (OOP) concepts in a real-world application.
+Hey there! Welcome to my custom Command Line Interface (CLI) project. I built this tool using **Node.js** and **TypeScript** to demonstrate core Object-Oriented Programming (OOP) concepts in a real-world application.
 
 ##  What's Inside?
 
@@ -12,7 +12,7 @@ Here are some of the cool features:
 - **Beautiful Output**: Features colorful console logs using `Chalk`.
 - **API Integrations**: Fetches live data from GitHub, current weather, and randomized quotes.
 
-### The Custom CLI Banner 🎨
+### The Custom CLI Banner 
 Whenever you run the tool without any specific commands (just `npm start`), you'll be greeted by a custom, block-filled **"FAHHH"** ASCII art banner! I used `figlet` (specifically the Star Wars font) and `chalk` to give it a bold, solid white look before displaying the help menu.
 
 ##  How to Use It
