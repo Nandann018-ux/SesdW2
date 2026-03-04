@@ -4,9 +4,6 @@ import { Logger } from './Logger';
 export class Validator {
     private static logger = new Logger();
 
-    /**
-     * Validates data against a Zod schema. Logs errors and returns null if validation fails.
-     */
     public static validate<T>(schema: z.ZodType<T>, data: unknown): T | null {
         try {
             return schema.parse(data);

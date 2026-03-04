@@ -27,7 +27,7 @@ export class CliEngine {
     public async run(): Promise<void> {
         if (process.argv.length < 3) {
             console.clear();
-            const banner = figlet.textSync("FAHHH", { font: "ANSI Shadow", horizontalLayout: "full" });
+            const banner = figlet.textSync("FAHHH", { font: "Star Wars", horizontalLayout: "full" });
             console.log(chalk.white(banner));
 
             setTimeout(() => {

@@ -16,7 +16,6 @@ export class WeatherCommand extends BaseCommand {
         this.logger.info(`Fetching weather for: ${city}...`);
         const url = `https://wttr.in/${encodeURIComponent(city)}?format=3`;
 
-        // We use text responsetype because wttr.in format=3 returns plan string
         const data = await ApiService.get<string>(url, 'text');
 
         if (data) {

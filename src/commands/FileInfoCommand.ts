@@ -28,7 +28,6 @@ export class FileInfoCommand extends BaseCommand {
             this.logger.log(`  Modified: ${stats.mtime.toLocaleString()}`);
             this.logger.log(`  Is Directory: ${stats.isDirectory()}`);
 
-            // Output permission flags rudimentary form
             const modes = stats.mode.toString(8);
             this.logger.log(`  Permissions (Octal): ${modes.slice(-3)}`);
         } catch (error: any) {

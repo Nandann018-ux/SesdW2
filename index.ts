@@ -13,7 +13,6 @@ import { QuoteCommand } from './src/commands/QuoteCommand';
 
 const app = new CliEngine();
 
-// Register Local Commands
 app.registerCommand(new GreetCommand());
 app.registerCommand(new AddCommand());
 app.registerCommand(new FileInfoCommand());
@@ -22,10 +21,8 @@ app.registerCommand(new Base64EncodeCommand());
 app.registerCommand(new Base64DecodeCommand());
 app.registerCommand(new HashCommand());
 
-// Register API Commands
 app.registerCommand(new GithubCommand());
 app.registerCommand(new WeatherCommand());
 app.registerCommand(new QuoteCommand());
 
-// Run the application
 app.run();
